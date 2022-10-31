@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "start": "webpack serve --mode development",
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
